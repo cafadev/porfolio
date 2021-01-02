@@ -8,6 +8,7 @@ import FrontendDevelopment from '../views/skills/FrontendDevelopment'
 import ScriptMaster from '../views/skills/ScriptMaster'
 
 import Projects from '../views/projects/Projects'
+import GPTC from '../views/projects/GPTC'
 
 Vue.use(VueRouter)
 
@@ -30,12 +31,12 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: Projects,
-    // redirect: { name: 'SkillsBackendDevelopment' },
-    // children: [
-    //   { path: 'backend-development', name: 'SkillsBackendDevelopment', component: BackendDevelopment },
-    //   { path: 'frontend-development', name: 'SkillsFrontendDevelopment', component: FrontendDevelopment },
-    //   { path: 'script-master', name: 'SkillsScriptMaster', component: ScriptMaster },
-    // ]
+    redirect: { name: 'ProjectsGPTC' },
+    children: [
+      { path: 'gptc', name: 'ProjectsGPTC', component: GPTC },
+      // { path: 'frontend-development', name: 'SkillsFrontendDevelopment', component: FrontendDevelopment },
+      // { path: 'script-master', name: 'SkillsScriptMaster', component: ScriptMaster },
+    ]
   },
 ]
 

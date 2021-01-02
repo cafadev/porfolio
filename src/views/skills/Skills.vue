@@ -2,7 +2,7 @@
     <div>
         <v-row>
             <sidebar color="red" :items="items"></sidebar>
-            <v-col class="mt-0 main-padding-top" cols="6" offset-md="1">
+            <v-col class="d-flex align-center" cols="6" offset-md="1">
                 <router-view></router-view>
             </v-col>
         </v-row>

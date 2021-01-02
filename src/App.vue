@@ -44,7 +44,7 @@ p
   line-height: 3
 
 .main-padding-top
-  padding-top: 11rem !important
+  padding-top: 2rem !important
 
 .navbar-list
     &::before
@@ -59,4 +59,5 @@ p
     padding-left: 1rem
     padding-bottom: $padding-y
     padding-top: $padding-y
+
 </style>

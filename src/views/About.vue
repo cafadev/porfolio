@@ -35,6 +35,9 @@ export default {
 
 <style lang="sass" scoped>
 
+.about
+  padding-top: 10rem !important
+  padding-left: 2rem
 .about-text
   margin-top: 2rem !important
 

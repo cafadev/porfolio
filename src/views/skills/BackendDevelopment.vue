@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="main-padding-top">
         <h2 class="display-1 font-weight-regular">Powerful, secure & stable backend</h2>
         <p class="font-weight-light blue-grey--text text--darken-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
@@ -26,8 +26,4 @@ export default {
 
 
 <style lang="sass" scoped>
-.nav
-    width: 26rem
-    padding-left: 6rem
-    height: 110vh
 </style>

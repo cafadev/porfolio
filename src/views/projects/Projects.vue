@@ -20,7 +20,7 @@ export default {
     data() {
         return {
             items: [
-                { text: 'GPTC', url: { name: 'SkillsBackendDevelopment' } },
+                { text: 'Gestor de productos de Tarjeta', url: { name: 'ProjectsGPTC' } },
                 { text: 'SUVIDO', url: { name: 'SkillsFrontendDevelopment' } },
                 { text: 'Priora', url: { name: 'SkillsFrontendDevelopment' } },
                 { text: 'Xlsx Report', url: { name: 'SkillsScriptMaster' } },
